@@ -1,0 +1,49 @@
+{
+  "Response": {
+    "ResultBlock": {
+      "MatchSummary": {
+        "TotalMatchScore": "85"
+      },
+      "ErrorWarnings": {
+        "Errors": {
+          "errorCount": "0"
+        },
+        "Warnings": {
+          "warningCount": "1",
+          "Warning": [
+            {
+              "Number": "102001",
+              "Message": "Minor mismatch in address",
+              "Values": {
+                "Value": [
+                  "Bellandur",
+                  "Bangalore"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "MatchDetails": {
+        "Match": [
+          {
+            "Entity": "John",
+            "MatchType": "Exact",
+            "Score": "35"
+          },
+          {
+            "Entity": "Doe",
+            "MatchType": "Exact",
+            "Score": "40"
+          }
+        ]
+      },
+      "API": {
+        "RetStatus": "SUCCESS",
+        "ErrorMessage": null,
+        "SysErrorCode": null,
+        "SysErrorMessage": null
+      }
+    }
+  }
+}
